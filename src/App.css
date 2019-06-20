@@ -9,10 +9,16 @@ p {
   font-weight: bold;
 }
 .headContent {
-  text-align: left;
-  font-size: 25px
+  float: left;
+  font-size: 25px;
+
 }
 .headScore {
-  text-align: right;
+  float: right;
   font-size: 25px;
+  background-color: white;
+}
+.main {
+  margin-bottom: 5%;
+  margin-left: 30%;
 }
