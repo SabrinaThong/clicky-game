@@ -9,7 +9,7 @@ return(
          <ul>
           <li className="itemLeft">Clicky Game</li>
           <li className="itemCenter"></li>
-          <li className="itemRight">Score: {props.count}</li>
+          <li className="itemRight">Topscore:</li>
         </ul>
       </nav>
 )

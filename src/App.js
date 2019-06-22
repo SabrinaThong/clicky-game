@@ -6,6 +6,7 @@ import Counter from "./Components/Counter";
 import images from "./images.json";
 import Wrapper from "./Components/Wrapper";
 import Jumbotron from "./Components/Jumbotron";
+import Footer from "./Components/Footer";
 
 
 class App extends React.Component {
@@ -59,9 +60,9 @@ class App extends React.Component {
           image={image.image}
       />
       ))} */}
+       <Footer />
       </div>
        // </div>
-       
       );
     }
   }
