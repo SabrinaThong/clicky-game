@@ -1,17 +1,21 @@
-// import React from "react";
 
-// function Navbar() {
-//     return (
-//     <Navbar>
-//         <Navbar.Brand href="#home">Clicky Game</Navbar.Brand>
-//         <Navbar.Toggle />
-//         <Navbar.Collapse className="justify-content-end">
-//         <Navbar.Text>
-//             Score:  | Top Score: 
-//         </Navbar.Text>
-//         </Navbar.Collapse>
-//     </Navbar>
-//     );
-// };
+import React from "react";
+import "./Navbar.css";
 
-// export default Navbar;
+function Navbar(props) {
+return(
+
+      <nav className="navbar navbar-default navbar-fixed-top">
+         <ul>
+          <li className="itemLeft">Clicky Game</li>
+          <li className="itemCenter"></li>
+          <li className="itemRight">Score: {props.count}</li>
+        </ul>
+      </nav>
+)
+}
+
+     
+
+
+export default Navbar;
