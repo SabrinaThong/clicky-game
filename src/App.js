@@ -48,7 +48,9 @@ class App extends React.Component {
         score={this.props.count}   
       />
       <Jumbotron />
-      <div className="wrapper">
+  
+      <Counter />
+      {/* <div className="wrapper">
           {this.state.Images.map(image => (
       <Images 
           imageClicked={this.imageClicked}
@@ -56,9 +58,9 @@ class App extends React.Component {
           id={image.id}
           image={image.image}
       />
-      ))}
+      ))} */}
       </div>
-        </div>
+       // </div>
        
       );
     }
